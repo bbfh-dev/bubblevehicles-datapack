@@ -22,6 +22,7 @@ execute store result entity @s Item.tag.EntityTag.data.Tank_Mod int 1 run scoreb
 execute store result entity @s Item.tag.EntityTag.data.Gears_Count int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] buvs.gears_count
 execute store result entity @s Item.tag.EntityTag.data.Inventory int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] buvs.inventory
 execute store result entity @s Item.tag.EntityTag.data.Health int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] buvs.health
+execute store result entity @s Item.tag.EntityTag.data.Actions int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] buvs.actions
 execute store result entity @s Item.tag.EntityTag.data.Color1 int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] bvdata.color1
 execute store result entity @s Item.tag.EntityTag.data.Color2 int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] bvdata.color2
 execute store result entity @s Item.tag.EntityTag.data.Color3 int 1 run scoreboard players get @e[type=marker, tag=btemp.originC, limit=1] bvdata.color3
