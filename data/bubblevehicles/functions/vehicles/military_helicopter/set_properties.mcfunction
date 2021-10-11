@@ -1,6 +1,6 @@
 scoreboard players set @s buvs.max_speed 3600
 scoreboard players set @s buvs.min_speed -3600
-scoreboard players set @s buvs.accelerate0 80
+scoreboard players set @s buvs.accelerate0 220
 scoreboard players set @s buvs.accelerate1 20
 scoreboard players set @s buvs.accelerate2 24
 scoreboard players set @s buvs.accelerate3 28
