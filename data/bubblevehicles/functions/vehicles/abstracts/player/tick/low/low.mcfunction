@@ -1,0 +1,2 @@
+execute if score $RenderDistance buvs.settings matches 1 run tag @e[type=minecraft:marker, tag=buvs.origin, distance=..8] add buvs.passed
+execute if score $RenderDistance buvs.settings matches 2 run tag @e[type=minecraft:marker, tag=buvs.origin, distance=..16] add buvs.passed

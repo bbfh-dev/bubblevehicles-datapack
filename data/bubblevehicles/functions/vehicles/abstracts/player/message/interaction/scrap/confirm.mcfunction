@@ -1,0 +1,1 @@
+tellraw @p ["",{"text":"BubbleVehicles","bold":true,"color":"#FAB638"},{"text":" confirm operation (","color":"#d8d6cd"},{"text":"SCRAP","bold":true,"color":"red"},{"text":") by using it again","color":"#d8d6cd"}]

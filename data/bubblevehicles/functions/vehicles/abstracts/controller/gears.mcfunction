@@ -1,0 +1,8 @@
+execute unless score @s bvehicle.brake matches 1 if score @s bvehicle.speed matches ..-1 run function bubblevehicles:vehicles/abstracts/controller/gears/rear
+execute if score @s bvehicle.speed matches 0 run scoreboard players set @s bvehicle.gear 0
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 1.. if score @s bvehicle.speed matches 1..440 run function bubblevehicles:vehicles/abstracts/controller/gears/first
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 2.. if score @s bvehicle.speed matches 441..960 run function bubblevehicles:vehicles/abstracts/controller/gears/second
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 3.. if score @s bvehicle.speed matches 961..1600 run function bubblevehicles:vehicles/abstracts/controller/gears/third
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 4.. if score @s bvehicle.speed matches 1601..3300 run function bubblevehicles:vehicles/abstracts/controller/gears/fourth
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 5.. if score @s bvehicle.speed matches 3301..5800 run function bubblevehicles:vehicles/abstracts/controller/gears/fifth
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.gears_count matches 6 if score @s bvehicle.speed matches 5801..7300 run function bubblevehicles:vehicles/abstracts/controller/gears/sixth

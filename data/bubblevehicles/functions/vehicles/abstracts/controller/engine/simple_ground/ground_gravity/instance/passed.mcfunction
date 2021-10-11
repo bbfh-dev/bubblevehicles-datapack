@@ -1,0 +1,2 @@
+execute unless block ~ ~.4 ~ #bubblevehicles:air if block ~ ~1.5 ~ #bubblevehicles:air run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity/instance/push_up
+data modify entity @e[type=armor_stand, tag=btemp.controller, limit=1] Pos[1] set from entity @s Pos[1]

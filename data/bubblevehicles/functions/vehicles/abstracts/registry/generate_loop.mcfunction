@@ -1,0 +1,2 @@
+scoreboard players add $Score buvs.registry 1
+execute as @e[type=minecraft:marker, tag=buvs.origin] if score @s buvs.registry = $Score buvs.registry run function bubblevehicles:vehicles/abstracts/registry/generate_loop

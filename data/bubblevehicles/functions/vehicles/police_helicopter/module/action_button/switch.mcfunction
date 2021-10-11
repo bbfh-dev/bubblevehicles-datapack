@@ -1,0 +1,2 @@
+execute if score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.action matches 0 run function bubblevehicles:vehicles/police_helicopter/module/action_button/button/state0
+execute if score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.action matches 1 run function bubblevehicles:vehicles/police_helicopter/module/action_button/button/state1

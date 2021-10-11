@@ -1,0 +1,7 @@
+{
+    "values": [
+        "bubblevehicles:load",
+        "bubblevehicles:vehicles/abstracts/controller/beat",
+        "bubblevehicles:vehicles/abstracts/mesh/beat"
+    ]
+}

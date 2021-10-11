@@ -1,0 +1,2 @@
+scoreboard players add @e[type=marker, tag=btemp.originC, limit=1] bvehicle.health 32
+execute if score @e[type=marker, tag=btemp.originC, limit=1] bvehicle.health > @e[type=marker, tag=btemp.originC, limit=1] buvs.health run scoreboard players operation @e[type=marker, tag=btemp.originC, limit=1] bvehicle.health = @e[type=marker, tag=btemp.originC, limit=1] buvs.health

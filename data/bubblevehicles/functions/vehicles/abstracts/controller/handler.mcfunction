@@ -1,0 +1,2 @@
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.engine_type matches 0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground
+execute if score @e[type=marker, tag=btemp.origin, limit=1] buvs.engine_type matches 1 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air

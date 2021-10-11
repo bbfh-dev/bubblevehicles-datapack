@@ -1,0 +1,1 @@
+title @p actionbar ["You need ", {"text":"registered Block in your hand", "bold":true}, " for this action"]
