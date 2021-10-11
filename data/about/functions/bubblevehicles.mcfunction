@@ -1,3 +1,8 @@
+scoreboard players set $VehicleAmount bubblevehicles 0
+scoreboard players set $MeshAmount bubblevehicles 0
+execute as @e[type=marker, tag=buvs.origin] run scoreboard players add $VehicleAmount bubblevehicles 1
+execute as @e[type=armor_stand, tag=buvs.mesh] run scoreboard players add $MeshAmount bubblevehicles 1
+
 tellraw @s "\u250c\u2500\u2500\u2500 BubbleVehicles About \u2500\u2500\u2500"
 tellraw @s ["\u2502\n\u2502  ", {"text":"\u2122 Namespace", "color":"#ffbb3d"}, {"text":" ", "bold":true}, ".\u261e ", ["[", {"text":"bubblevehicles", "color":"gray"}, "]"]]
 tellraw @s ["\u2502  ", {"text":"\u26a0 Description", "color":"#ffbb3d"}, " \u261e ", ["[", {"text":"This datapack adds fabulous server side vehicles that have a lot of features, and require no resourcepack!", "color":"#60d4f7"}, "]"]]
@@ -9,4 +14,5 @@ tellraw @s ["\u2502  ", {"text":"\u2709 Scoreboards", "color":"#22bf49"}, "    .
 tellraw @s ["\u2502  ", {"text":"\u262f Teams", "color":"#22bf49"}, "             \u261e ", ["[", {"text":"1", "color":"gray"}, ", ", {"text":"<hover>", "color":"#60d4f7", "hoverEvent":{"action":"show_text","contents":"bubblevehicles"}}, "]"]]
 tellraw @s ["\u2502  ", {"text":"\u2603 Project page", "color":"#22bf49"}, "    \u261e ", ["[", {"text":"Planet Minecraft", "color":"gray"}, ", ", {"text":"<click>", "color":"#60d4f7", "clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/bubblevehicles-release/"}}, "]"]]
 tellraw @s ["\u2502  ", {"text":"\u2601 Other versions", "color":"#22bf49"}, {"text":" ", "bold":true}, ".\u261e ", ["[", {"text":"Google Drive", "color":"gray"}, ", ", {"text":"<click>", "color":"#60d4f7", "clickEvent":{"action":"open_url","value":"https://drive.google.com/drive/folders/14VIxLVmxwv4f-yUYuIzys_yFDFcfvGsK?usp=sharing"}}, "]"]]
+tellraw @s ["\u2502  ", {"text":"\u231b Statistics", "color":"#22bf49"}, "         .\u261e ", ["[", {"text":"Vehicles spawned: ", "color":"gray"}, {"score":{"objective":"bubblevehicles","name":"$VehicleAmount"}}, ", ", {"text":"Mesh loaded: ", "color":"gray"}, {"score":{"objective":"bubblevehicles","name":"$MeshAmount"}}, "]"]]
 tellraw @s "\u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"

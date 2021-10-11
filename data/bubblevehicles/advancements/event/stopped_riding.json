@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{Tags:[\"bubblevehicles\"]}"
+                            "team": "bubblevehicles"
                         }
                     },
                     {
@@ -19,7 +19,7 @@
                             "predicate": {
                                 "vehicle": {
                                     "type": "minecraft:llama",
-                                    "nbt": "{Tags:[\"bubblevehicles\"]}"
+                                    "nbt": "{Tags:[\"buvs.papermc\"]}"
                                 }
                             }
                         }

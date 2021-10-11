@@ -6,7 +6,7 @@
                 "player": {
                     "vehicle": {
                         "type": "minecraft:llama",
-                        "nbt": "{Tags:[\"bubblevehicles\"]}"
+                        "nbt": "{Tags:[\"buvs.papermc\"]}"
                     }
                 }
             }
