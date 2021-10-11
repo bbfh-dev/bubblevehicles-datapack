@@ -1,2 +1,2 @@
-# bubblevehicles-datapack
-123
+# BubbleVehicles datapack
+This is the master branch of BubbleVehicles datapack
