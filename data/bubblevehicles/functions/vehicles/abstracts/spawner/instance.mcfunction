@@ -1,4 +1,4 @@
-execute as @s[tag=buvs.MILITARY_HELICOPTER] run function summon:bubblevehicles/private_helicopter
+execute as @s[tag=buvs.MILITARY_HELICOPTER] run function summon:bubblevehicles/military_helicopter
 execute as @s[tag=buvs.PRIVATE_HELICOPTER] run function summon:bubblevehicles/private_helicopter
 execute as @s[tag=buvs.POLICE_HELICOPTER] run function summon:bubblevehicles/police_helicopter
 execute as @s[tag=buvs.POLICE_INTERCEPTOR] run function summon:bubblevehicles/police_interceptor
