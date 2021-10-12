@@ -41,27 +41,28 @@ execute as @e[type=minecraft:marker, tag=buvs.origin, tag=buvs.notset, limit=1] 
 
 ### §1.1 **Set properties** function:
 ```java
-scoreboard players set @s buvs.max_speed 1900
-scoreboard players set @s buvs.min_speed -500
-scoreboard players set @s buvs.accelerate0 40
-scoreboard players set @s buvs.accelerate1 8
-scoreboard players set @s buvs.accelerate2 10
-scoreboard players set @s buvs.accelerate3 12
-scoreboard players set @s buvs.accelerate4 7
-scoreboard players set @s buvs.accelerate5 5
-scoreboard players set @s buvs.accelerate6 0
-scoreboard players set @s buvs.engine_type 0
-scoreboard players set @s buvs.paint_type 2
-scoreboard players set @s buvs.tank_cap 50000
-scoreboard players set @s buvs.tank_mod 2500
-scoreboard players set @s buvs.gears_count 6
-scoreboard players set @s buvs.inventory 3
-scoreboard players set @s buvs.health 240
-scoreboard players set @s buvs.health_cap 60
-scoreboard players set @s buvs.actions 0
-scoreboard players set @s bvdata.color1 14
-scoreboard players set @s bvdata.color2 14
-scoreboard players set @s bvdata.color3 6
+scoreboard players set @s buvs.max_speed #1
+scoreboard players set @s buvs.min_speed #2
+scoreboard players set @s buvs.accelerate0 #3
+scoreboard players set @s buvs.accelerate1 #4
+scoreboard players set @s buvs.accelerate2 #5
+scoreboard players set @s buvs.accelerate3 #6
+scoreboard players set @s buvs.accelerate4 #7
+scoreboard players set @s buvs.accelerate5 #8
+scoreboard players set @s buvs.accelerate6 #9
+scoreboard players set @s buvs.engine_type #10
+scoreboard players set @s buvs.paint_type #11
+scoreboard players set @s buvs.tank_cap #12
+scoreboard players set @s buvs.tank_mod #13
+scoreboard players set @s buvs.gears_count #14
+scoreboard players set @s buvs.inventory #15
+scoreboard players set @s buvs.health #16
+scoreboard players set @s buvs.health_cap #17
+scoreboard players set @s buvs.actions #18
+scoreboard players set @s bvdata.color1 #19
+scoreboard players set @s bvdata.color2 #20
+scoreboard players set @s bvdata.color3 #21
 
 function bubblevehicles:vehicles/abstracts/origin/register
 ```
+(Replace `#...` with an integer)
