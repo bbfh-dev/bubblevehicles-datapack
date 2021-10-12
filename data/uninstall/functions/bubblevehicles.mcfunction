@@ -1,4 +1,4 @@
-say §7Uninstalling §e§lBubbleVehicles 3.0a§r§7...
+say §7Uninstalling §e§lBubbleVehicles 3.0b§r§7...
 
 execute as @e[type=marker, tag=buvs.origin] run function bubblevehicles:vehicles/abstracts/origin/kill
 tag @a remove btemp.playerV
@@ -64,4 +64,4 @@ datapack disable "file/bubblevehicles-v3-0a"
 datapack disable "file/bubblevehicles-v3-0a.zip"
 datapack disable "file/bubblevehicles-v3-0a.rar"
 reload
-say §c§lBubbleVehicles 3.0a §r§edatapack uninstalled & purged
+say §c§lBubbleVehicles 3.0b §r§edatapack uninstalled & purged
