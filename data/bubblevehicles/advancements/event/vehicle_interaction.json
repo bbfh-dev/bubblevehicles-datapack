@@ -6,7 +6,7 @@
                 "player": {
                     "player": {
                         "looking_at": {
-                            "team": "bubblevehicles"
+                            "nbt": "{Tags:[\"buvs.team\"]}"
                         }
                     }
                 }

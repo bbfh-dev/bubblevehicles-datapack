@@ -1,10 +1,11 @@
-say §a§lBubbleVehicles 3.0b §r§edatapack loaded
+say §a§lBubbleVehicles 3.0c §r§edatapack loaded
 
 #  Scoreboards
 scoreboard objectives add bubblevehicles dummy "BubbleVehicles"
 scoreboard objectives add buvs.registry dummy "BUVS Registry"
 scoreboard objectives add buvs.settings dummy "BUVS Settings"
 scoreboard objectives add buvs.leave_game dummy "BUVS Leave Game"
+execute store success score $HasUpdated bubblevehicles run scoreboard objectives add buvs.version dummy
 
 scoreboard objectives add bvehicle.vectorX dummy "BVehicle Vector X"
 scoreboard objectives add bvehicle.vectorZ dummy "BVehicle Vector Y"
@@ -59,6 +60,8 @@ team modify bubblevehicles collisionRule never
 
 
 #  Outdated
+execute if score $HasUpdated bubblevehicles matches 1 run function bubblevehicles:settings/update
+
 execute store success score $OldVersion bubblevehicles run scoreboard objectives remove buvs.vectorSpeed
 execute if score $OldVersion bubblevehicles matches 1 run function bubblevehicles:settings/uninstall_outdated_version
 
