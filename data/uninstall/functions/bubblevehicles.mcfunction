@@ -1,4 +1,4 @@
-say §7Uninstalling §e§lBubbleVehicles 3.0c§r§7...
+say §7Uninstalling §e§lBubbleVehicles 3.0d§r§7...
 
 execute as @e[type=marker, tag=buvs.origin] run function bubblevehicles:vehicles/abstracts/origin/kill
 tag @a remove btemp.playerV
@@ -57,11 +57,8 @@ scoreboard objectives remove bvdata.timer4
 scoreboard objectives remove buvs.const
 scoreboard objectives remove buvs.leave_game
 scoreboard objectives remove buvs.settings
+scoreboard objectives remove buvs.version
 
 team remove bubblevehicles
 
-datapack disable "file/bubblevehicles-v3-0c"
-datapack disable "file/bubblevehicles-v3-0c.zip"
-datapack disable "file/bubblevehicles-v3-0c.rar"
-reload
-say §c§lBubbleVehicles 3.0c §r§edatapack uninstalled & purged
+say §c§lBubbleVehicles 3.0d §r§edatapack uninstalled §r§7§oUse /reload to reinstall the datapack, disable it or delete the file
