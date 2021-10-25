@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ],
+          "location": {
+            "feature": "village"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "bubblevehicles:vehicles/abstracts/player/summon_trader"
+    }
+  }
+  

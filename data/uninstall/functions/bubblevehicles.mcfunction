@@ -1,4 +1,4 @@
-say §7Uninstalling §e§lBubbleVehicles 3.0d§r§7...
+say §7Uninstalling §e§lBubbleVehicles 3.1a§r§7...
 
 execute as @e[type=marker, tag=buvs.origin] run function bubblevehicles:vehicles/abstracts/origin/kill
 tag @a remove btemp.playerV
@@ -61,4 +61,4 @@ scoreboard objectives remove buvs.version
 
 team remove bubblevehicles
 
-say §c§lBubbleVehicles 3.0d §r§edatapack uninstalled §r§7§oUse /reload to reinstall the datapack, disable it or delete the file
+say §c§lBubbleVehicles 3.1a §r§edatapack uninstalled §r§7§oUse /reload to reinstall the datapack, disable it or delete the file

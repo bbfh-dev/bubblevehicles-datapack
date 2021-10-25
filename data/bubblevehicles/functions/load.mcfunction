@@ -1,4 +1,4 @@
-say §a§lBubbleVehicles 3.0d §r§edatapack loaded
+say §a§lBubbleVehicles 3.1a §r§edatapack loaded
 
 #  Scoreboards
 scoreboard objectives add bubblevehicles dummy "BubbleVehicles"
@@ -6,7 +6,7 @@ scoreboard objectives add buvs.registry dummy "BUVS Registry"
 scoreboard objectives add buvs.settings dummy "BUVS Settings"
 scoreboard objectives add buvs.leave_game dummy "BUVS Leave Game"
 execute store success score $HasUpdated bubblevehicles run scoreboard objectives add buvs.version dummy
-scoreboard players set $DataVersion buvs.version 304
+scoreboard players set $DataVersion buvs.version 310
 
 scoreboard objectives add bvehicle.vectorX dummy "BVehicle Vector X"
 scoreboard objectives add bvehicle.vectorZ dummy "BVehicle Vector Y"

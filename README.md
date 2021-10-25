@@ -3,6 +3,9 @@ This is the master branch of BubbleVehicles datapack
 
 All information about the datapack may be found on [Planet Minecraft page](https://www.planetminecraft.com/data-pack/bubblevehicles-release/).
 
+# Changelog
+• Added trader natural spawning
+
 # **For Developers**
 **This documentation is NOT finished yet**
 * [Introduction](#intro)
