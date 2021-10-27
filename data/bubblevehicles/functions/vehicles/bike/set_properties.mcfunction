@@ -4,9 +4,9 @@ scoreboard players set @s buvs.accelerate0 40
 scoreboard players set @s buvs.accelerate1 8
 scoreboard players set @s buvs.accelerate2 12
 scoreboard players set @s buvs.accelerate3 10
-scoreboard players set @s buvs.accelerate4 0
-scoreboard players set @s buvs.accelerate5 0
-scoreboard players set @s buvs.accelerate6 0
+scoreboard players set @s buvs.accelerate4 6
+scoreboard players set @s buvs.accelerate5 4
+scoreboard players set @s buvs.accelerate6 2
 scoreboard players set @s buvs.engine_type 0
 scoreboard players set @s buvs.paint_type 1
 scoreboard players set @s buvs.tank_cap 45000

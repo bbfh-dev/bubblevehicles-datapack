@@ -14,6 +14,7 @@ execute store result score @s buvs.tank_mod run data get entity @e[type=marker, 
 execute store result score @s buvs.gears_count run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Gears_Count
 execute store result score @s buvs.inventory run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Inventory
 execute store result score @s buvs.health run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Health
+execute store result score @s buvs.health_cap run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.HealthCap
 execute store result score @s buvs.actions run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Actions
 execute store result score @s bvdata.color1 run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Color1
 execute store result score @s bvdata.color2 run data get entity @e[type=marker, tag=btemp.CUSTOM_SPAWNER, limit=1] data.Color2

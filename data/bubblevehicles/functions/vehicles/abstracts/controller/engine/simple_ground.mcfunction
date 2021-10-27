@@ -4,6 +4,7 @@ function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/braki
 function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity
 function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/acceleration
 function bubblevehicles:vehicles/abstracts/controller/gears
+execute if entity @e[type=marker, tag=btemp.origin, limit=1, tag=-buvs.nitro_boost] run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/nitro
 execute if score @s bvehicle.speed matches 0 run data modify entity @s NoGravity set value 1b
 execute as @s[tag=buvs.POLICE_INTERCEPTOR] run function #bubblevehicles:vehicle/police_interceptor
 execute as @s[tag=buvs.POLICE_CRUISER] run function #bubblevehicles:vehicle/police_cruiser

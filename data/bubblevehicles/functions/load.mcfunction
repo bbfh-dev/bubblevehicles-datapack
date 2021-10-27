@@ -33,6 +33,18 @@ scoreboard objectives add buvs.health dummy "Vehicle Health"
 scoreboard objectives add buvs.health_cap dummy "Vehicle Health Cap"
 scoreboard objectives add buvs.actions dummy "Vehicle Actions"
 
+scoreboard objectives add buvs.MaxSpeed dummy
+scoreboard objectives add buvs.MinSpeed dummy
+scoreboard objectives add buvs.Gear0 dummy
+scoreboard objectives add buvs.Gear1 dummy
+scoreboard objectives add buvs.Gear2 dummy
+scoreboard objectives add buvs.Gear3 dummy
+scoreboard objectives add buvs.Gear4 dummy
+scoreboard objectives add buvs.Gear5 dummy
+scoreboard objectives add buvs.Gear6 dummy
+scoreboard objectives add buvs.TankCap dummy
+scoreboard objectives add buvs.Items dummy
+
 scoreboard objectives add bvehicle.action dummy "BVehicle Action"
 scoreboard objectives add bvehicle.health dummy "BVehicle Health"
 scoreboard objectives add bvehicle.speed dummy "BVehicle Speed"
@@ -53,6 +65,11 @@ scoreboard objectives add bvdata.timer1 dummy
 scoreboard objectives add bvdata.timer2 dummy
 scoreboard objectives add bvdata.timer3 dummy
 scoreboard objectives add bvdata.timer4 dummy
+scoreboard objectives add bvdata.upgrade0 dummy "Max Speed"
+scoreboard objectives add bvdata.upgrade1 dummy "Acceleration"
+scoreboard objectives add bvdata.upgrade2 dummy "Gas Tank Capacity"
+scoreboard objectives add bvdata.upgrade3 dummy "Nitro Boost"
+scoreboard objectives add bvdata.upgrade4 dummy "Glove Box"
 
 #  Team
 team add bubblevehicles "BubbleVehicles"
