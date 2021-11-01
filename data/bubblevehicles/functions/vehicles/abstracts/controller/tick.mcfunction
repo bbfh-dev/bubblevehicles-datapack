@@ -9,7 +9,7 @@ tag @p add btemp.driver
 
 execute at @s run function bubblevehicles:vehicles/abstracts/controller/display
 function bubblevehicles:vehicles/abstracts/controller/defaults
-clear @p #bubblevehicles:vehicle_action/all
+clear @p #bubblevehicles:vehicle_action/all{BubbleVehicles:1b}
 
 execute if score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.health matches ..0 if score @e[type=marker, tag=btemp.origin, limit=1] buvs.engine_type matches 1 at @s if block ~ ~-.5 ~ #bubblevehicles:air run tp @s ~ ~-.5 ~ ~ ~
 execute if score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.health matches 1.. run function bubblevehicles:vehicles/abstracts/controller/handler

@@ -4,6 +4,7 @@ execute unless score @s bvehicle.upwards matches 0 run function bubblevehicles:v
 execute unless score @s bvehicle.speed matches 0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/moving
 function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/fuel
 function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/gears
+execute if entity @e[type=marker, tag=btemp.origin, limit=1, tag=-buvs.nitro_boost] run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/nitro
 scoreboard players remove @s bvehicle.sound 1
 execute if score @s bvehicle.sound matches ..0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/sound
 execute if score @s bvehicle.speed matches 0 run data modify entity @s NoGravity set value 1b
