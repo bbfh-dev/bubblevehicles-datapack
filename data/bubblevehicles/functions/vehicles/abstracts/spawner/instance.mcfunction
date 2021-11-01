@@ -5,6 +5,7 @@ execute as @s[tag=buvs.POLICE_INTERCEPTOR] run function summon:bubblevehicles/po
 execute as @s[tag=buvs.POLICE_CRUISER] run function summon:bubblevehicles/police_cruiser
 execute as @s[tag=buvs.CABRIOLET] run function summon:bubblevehicles/cabriolet
 execute as @s[tag=buvs.AMBULANCE] run function summon:bubblevehicles/ambulance
+execute as @s[tag=buvs.TRACTOR] run function summon:bubblevehicles/tractor
 execute as @s[tag=buvs.SEDAN] run function summon:bubblevehicles/sedan
 execute as @s[tag=buvs.BIKE] run function summon:bubblevehicles/bike
 execute as @s[tag=buvs.TAXI] run function summon:bubblevehicles/taxi

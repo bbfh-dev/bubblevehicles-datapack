@@ -52,6 +52,7 @@
         "#minecraft:pressure_plates",
         "#minecraft:rails",
         "minecraft:water",
-        "minecraft:lava"
+        "minecraft:lava",
+        "minecraft:wheat"
     ]
 }

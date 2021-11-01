@@ -10,3 +10,4 @@ execute as @s[tag=buvs.BIKE] at @s run function bubblevehicles:vehicles/abstract
 execute as @s[tag=buvs.TAXI] at @s run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity/ambulance
 execute as @s[tag=buvs.TANK] at @s run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity/tank
 execute as @s[tag=buvs.VAN] at @s run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity/sedan
+execute as @s[tag=buvs.TRACTOR] at @s run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/ground_gravity/tractor

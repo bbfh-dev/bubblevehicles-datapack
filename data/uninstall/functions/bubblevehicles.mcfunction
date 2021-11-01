@@ -12,6 +12,8 @@ advancement revoke @a only bubblevehicles:event/stopped_riding
 advancement revoke @a only bubblevehicles:event/vehicle_interaction
 scoreboard objectives remove bubblevehicles
 scoreboard objectives remove buvs.registry
+scoreboard objectives remove buvs.settings
+scoreboard objectives remove buvs.leave_game
 scoreboard objectives remove bvehicle.vectorX
 scoreboard objectives remove bvehicle.vectorZ
 scoreboard objectives remove bvehicle.vectorA
@@ -35,6 +37,17 @@ scoreboard objectives remove buvs.inventory
 scoreboard objectives remove buvs.health
 scoreboard objectives remove buvs.health_cap
 scoreboard objectives remove buvs.actions
+scoreboard objectives remove buvs.MaxSpeed
+scoreboard objectives remove buvs.MinSpeed
+scoreboard objectives remove buvs.Gear0
+scoreboard objectives remove buvs.Gear1
+scoreboard objectives remove buvs.Gear2
+scoreboard objectives remove buvs.Gear3
+scoreboard objectives remove buvs.Gear4
+scoreboard objectives remove buvs.Gear5
+scoreboard objectives remove buvs.Gear6
+scoreboard objectives remove buvs.TankCap
+scoreboard objectives remove buvs.Items
 scoreboard objectives remove bvehicle.action
 scoreboard objectives remove bvehicle.health
 scoreboard objectives remove bvehicle.speed
@@ -54,10 +67,12 @@ scoreboard objectives remove bvdata.timer1
 scoreboard objectives remove bvdata.timer2
 scoreboard objectives remove bvdata.timer3
 scoreboard objectives remove bvdata.timer4
+scoreboard objectives remove bvdata.upgrade0
+scoreboard objectives remove bvdata.upgrade1
+scoreboard objectives remove bvdata.upgrade2
+scoreboard objectives remove bvdata.upgrade3
+scoreboard objectives remove bvdata.upgrade4
 scoreboard objectives remove buvs.const
-scoreboard objectives remove buvs.leave_game
-scoreboard objectives remove buvs.settings
-scoreboard objectives remove buvs.version
 
 team remove bubblevehicles
 
