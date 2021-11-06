@@ -1,4 +1,4 @@
-say §a§lBubbleVehicles 3.1a §r§edatapack loaded
+say §a§lBubbleVehicles 3.2a §r§edatapack loaded
 
 #  Scoreboards
 scoreboard objectives add bubblevehicles dummy "BubbleVehicles"

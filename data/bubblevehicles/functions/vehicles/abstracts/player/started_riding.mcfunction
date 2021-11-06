@@ -1,5 +1,5 @@
 advancement revoke @s only bubblevehicles:event/started_riding
-team join bubblevehicles @s
+tag @s add buvs.team
 
 
 #  Execute seat
