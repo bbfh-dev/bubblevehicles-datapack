@@ -1,12 +1,22 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "player": {
-            "looking_at": {
-                "type": "minecraft:llama",
-                "nbt": "{Tags:[\"buvs.team\"]}"
-            }
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "looking_at": {
+            "type": "minecraft:llama",
+            "nbt": "{Tags:[\"buvs.team\"]}"
         }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sneaking": true
+        }
+      }
     }
-}
+  ]
+  
