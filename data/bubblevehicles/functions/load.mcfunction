@@ -1,12 +1,10 @@
-say §a§lBubbleVehicles 3.2b §r§edatapack loaded
-
 #  Scoreboards
 scoreboard objectives add bubblevehicles dummy "BubbleVehicles"
 scoreboard objectives add buvs.registry dummy "BUVS Registry"
 scoreboard objectives add buvs.settings dummy "BUVS Settings"
 scoreboard objectives add buvs.leave_game dummy "BUVS Leave Game"
 execute store success score $HasUpdated bubblevehicles run scoreboard objectives add buvs.version dummy
-scoreboard players set $DataVersion buvs.version 310
+scoreboard players set $DataVersion buvs.version 322
 
 scoreboard objectives add bvehicle.vectorX dummy "BVehicle Vector X"
 scoreboard objectives add bvehicle.vectorZ dummy "BVehicle Vector Y"
@@ -86,6 +84,8 @@ execute if score $OldVersion bubblevehicles matches 1 run function bubblevehicle
 #  Settings
 execute unless score $RenderDistance buvs.settings matches -2147483648..2147483647 run scoreboard players set $RenderDistance buvs.settings 3
 execute unless score $ProjectileType buvs.settings matches -2147483648..2147483647 run scoreboard players set $ProjectileType buvs.settings 1
+execute unless score $LoadMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $LoadMessage buvs.settings 1
+execute unless score $RegisterMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $RegisterMessage buvs.settings 1
 schedule function bubblevehicles:vehicles/abstracts/player/is_datapack_broken 5t append
 
 #  Const
@@ -100,3 +100,6 @@ scoreboard players set 100 buvs.const 100
 scoreboard players set 400 buvs.const 400
 scoreboard players set 1000 buvs.const 1000
 scoreboard players set $DamageThreshold buvs.const 400
+
+#  Message
+execute unless score $LoadMessage buvs.settings matches 0 run say §a§lBubbleVehicles 3.2b §r§edatapack loaded
