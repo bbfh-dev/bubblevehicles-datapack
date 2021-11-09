@@ -86,6 +86,7 @@ execute unless score $RenderDistance buvs.settings matches -2147483648..21474836
 execute unless score $ProjectileType buvs.settings matches -2147483648..2147483647 run scoreboard players set $ProjectileType buvs.settings 1
 execute unless score $LoadMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $LoadMessage buvs.settings 1
 execute unless score $RegisterMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $RegisterMessage buvs.settings 1
+execute unless score $VillagerSpawning buvs.settings matches -2147483648..2147483647 run scoreboard players set $VillagerSpawning buvs.settings 1
 schedule function bubblevehicles:vehicles/abstracts/player/is_datapack_broken 5t append
 
 #  Const

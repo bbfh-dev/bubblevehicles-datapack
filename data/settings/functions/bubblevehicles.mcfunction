@@ -27,4 +27,9 @@ execute if score $RegisterMessage buvs.settings matches 0 run tellraw @s ["\u250
 execute if score $RegisterMessage buvs.settings matches 1 run tellraw @s ["\u2502 ", ["[         ", {"text":"[On]", "underlined":true, "color":"green", "hoverEvent":{"action":"show_text", "contents":"Sends a message to player when he is registered\n(Happens once per world)"}}, "      ", {"text":"[Off]", "color":"red", "hoverEvent":{"action":"show_text", "contents":"Hides the message"}, "clickEvent":{"action":"run_command","value":"/function bubblevehicles:settings/register_message/off"}}, "         ]"]]
 
 
+tellraw @s ["\u2502\n\u2502 ", {"text":"Toggle villager natural spawning", "bold":true}]
+execute if score $VillagerSpawning buvs.settings matches 0 run tellraw @s ["\u2502 ", ["[         ", {"text":"[On]", "color":"green", "hoverEvent":{"action":"show_text", "contents":"Randomly spawns a villager in villages"}, "clickEvent":{"action":"run_command","value":"/function bubblevehicles:settings/villager_spawning/on"}}, "      ", {"text":"[Off]", "color":"red", "underlined":true, "hoverEvent":{"action":"show_text", "contents":"Disables villager natural spawning"}}, "         ]"], "\n\u2502"]
+execute if score $VillagerSpawning buvs.settings matches 1 run tellraw @s ["\u2502 ", ["[         ", {"text":"[On]", "underlined":true, "color":"green", "hoverEvent":{"action":"show_text", "contents":"Randomly spawns a villager in villages"}}, "      ", {"text":"[Off]", "color":"red", "hoverEvent":{"action":"show_text", "contents":"Disables villager natural spawning"}, "clickEvent":{"action":"run_command","value":"/function bubblevehicles:settings/villager_spawning/off"}}, "         ]"]]
+
+
 tellraw @s "\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
