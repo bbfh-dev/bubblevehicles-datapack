@@ -53,6 +53,7 @@
         "#minecraft:rails",
         "minecraft:water",
         "minecraft:lava",
-        "minecraft:wheat"
+        "minecraft:wheat",
+        "minecraft:structure_void"
     ]
 }
