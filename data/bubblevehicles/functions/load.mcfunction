@@ -103,4 +103,4 @@ scoreboard players set 1000 buvs.const 1000
 scoreboard players set $DamageThreshold buvs.const 400
 
 #  Message
-execute unless score $LoadMessage buvs.settings matches 0 run say §a§lBubbleVehicles 3.2d §r§edatapack loaded
+execute unless score $LoadMessage buvs.settings matches 0 run say §a§lBubbleVehicles 3.2e §r§edatapack loaded
