@@ -10,3 +10,4 @@ execute as @s[tag=buvs.POLICE_INTERCEPTOR] run function #bubblevehicles:vehicle/
 execute as @s[tag=buvs.POLICE_CRUISER] run function #bubblevehicles:vehicle/police_cruiser
 execute as @s[tag=buvs.AMBULANCE] run function #bubblevehicles:vehicle/ambulance
 execute as @s[tag=buvs.TANK] run function #bubblevehicles:vehicle/tank
+execute as @s[tag=buvs.DRILL] run function #bubblevehicles:vehicle/drill

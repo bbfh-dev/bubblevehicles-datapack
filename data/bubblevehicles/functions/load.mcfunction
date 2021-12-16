@@ -95,8 +95,11 @@ schedule function bubblevehicles:vehicles/abstracts/player/is_datapack_broken 5t
 scoreboard objectives add buvs.const dummy
 scoreboard players set -100 buvs.const -100
 scoreboard players set -1 buvs.const -1
+scoreboard players set 2 buvs.const 2
+scoreboard players set 3 buvs.const 3
 scoreboard players set 4 buvs.const 4
 scoreboard players set 6 buvs.const 6
+scoreboard players set 7 buvs.const 7
 scoreboard players set 20 buvs.const 20
 scoreboard players set 32 buvs.const 32
 scoreboard players set 100 buvs.const 100

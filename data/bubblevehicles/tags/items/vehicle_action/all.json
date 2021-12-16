@@ -2,6 +2,7 @@
     "values": [
         "#bubblevehicles:vehicle_action/police_cruiser",
         "#bubblevehicles:vehicle_action/police_helicopter",
-        "#bubblevehicles:vehicle_action/tank"
+        "#bubblevehicles:vehicle_action/tank",
+        "#bubblevehicles:vehicle_action/drill"
     ]
 }
