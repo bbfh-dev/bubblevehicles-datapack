@@ -27,3 +27,6 @@ execute if score $Scrap bubblevehicles matches 1 run function bubblevehicles:veh
 
 execute store success score $Kick bubblevehicles run clear @p #bubblevehicles:vehicle_buttons{Tags:["buvs.VEHICLE.kick"]}
 execute if score $Kick bubblevehicles matches 1 run function bubblevehicles:vehicles/abstracts/player/interaction_menu/kick
+
+execute store success score $Kick bubblevehicles run clear @p #bubblevehicles:vehicle_buttons{Tags:["buvs.VEHICLE.none"]}
+execute if score $Kick bubblevehicles matches 1 run function bubblevehicles:vehicles/abstracts/player/interaction_menu/none

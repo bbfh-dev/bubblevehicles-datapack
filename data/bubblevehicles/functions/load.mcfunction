@@ -87,6 +87,8 @@ execute unless score $ProjectileType buvs.settings matches -2147483648..21474836
 execute unless score $LoadMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $LoadMessage buvs.settings 1
 execute unless score $RegisterMessage buvs.settings matches -2147483648..2147483647 run scoreboard players set $RegisterMessage buvs.settings 1
 execute unless score $VillagerSpawning buvs.settings matches -2147483648..2147483647 run scoreboard players set $VillagerSpawning buvs.settings 1
+execute unless score $VehicleDamaging buvs.settings matches -2147483648..2147483647 run scoreboard players set $VehicleDamaging buvs.settings 1
+execute unless score $FuelUsage buvs.settings matches -2147483648..2147483647 run scoreboard players set $FuelUsage buvs.settings 1
 schedule function bubblevehicles:vehicles/abstracts/player/is_datapack_broken 5t append
 
 #  Const
@@ -103,4 +105,4 @@ scoreboard players set 1000 buvs.const 1000
 scoreboard players set $DamageThreshold buvs.const 400
 
 #  Message
-execute unless score $LoadMessage buvs.settings matches 0 run say §a§lBubbleVehicles 3.2f §r§edatapack loaded
+execute unless score $LoadMessage buvs.settings matches 0 run say §a§lBubbleVehicles 3.3a §r§edatapack loaded

@@ -3,11 +3,11 @@
         "pack_format": 7,
         "description": [
             {
-                "text": "BubbleVehicles 3.2f",
+                "text": "BubbleVehicles 3.3a",
                 "color": "#f4b64b"
             },
             {
-                "text": " | 26/11/21",
+                "text": " | 00/00/00",
                 "color": "#9aa3a5"
             },
             {
@@ -25,7 +25,7 @@
         ],
         "metadata": {
             "authors": {
-                "BubbleF1sh": "24c8f8f8-9db3-4878-b8ea-530dbe583196"
+                "BubbleFish": "24c8f8f8-9db3-4878-b8ea-530dbe583196"
             },
             "license": "https://creativecommons.org/licenses/by-nc/4.0/",
             "pack_page": "https://www.planetminecraft.com/data-pack/bubblevehicles-release"

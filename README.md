@@ -3,8 +3,15 @@ This is the master branch of BubbleVehicles datapack
 
 All information about the datapack may be found on [Planet Minecraft page](https://www.planetminecraft.com/data-pack/bubblevehicles-release/).
 
-# Changelog
-• Added trader natural spawning
+# TODO
++ *a gamerule which disables vehicle damage*
++ *a gamerule that removes fuel usage*
+- *make so vehicles can work on high coordinates*
+- *add vehicle statistics into the vehicle menu*
+- *the TNT could have a bigger blast radius/damage*
++ the turning could use some work
+- drifting and some more supercars be added
+- add drill vehicle
 
 # **For Developers**
 **This documentation is NOT finished yet**

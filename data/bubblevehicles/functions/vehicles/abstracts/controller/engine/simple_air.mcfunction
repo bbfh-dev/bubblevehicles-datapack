@@ -2,7 +2,7 @@ execute unless score @p buvsInput.value matches 0 run function bubblevehicles:ve
 execute if score @p buvsInput.value matches 0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/keys/idle
 execute unless score @s bvehicle.upwards matches 0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/upwards
 execute unless score @s bvehicle.speed matches 0 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/moving
-function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/fuel
+execute if score $FuelUsage buvs.settings matches 1 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/fuel
 function bubblevehicles:vehicles/abstracts/controller/engine/simple_air/gears
 execute if entity @e[type=marker, tag=btemp.origin, limit=1, tag=-buvs.nitro_boost] run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/nitro
 scoreboard players remove @s bvehicle.sound 1

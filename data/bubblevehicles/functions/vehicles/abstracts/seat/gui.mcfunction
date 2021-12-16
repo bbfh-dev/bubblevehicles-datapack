@@ -18,3 +18,5 @@ execute if entity @e[type=marker, tag=btemp.originC, limit=1, tag=-buvs.glove_bo
 
 execute unless entity @e[type=marker, tag=btemp.originC, limit=1, tag=-buvs.gas_tank] run data modify entity @s Items[{Slot:6b}].tag.display.Lore append value '[{"text":"Gas Tank upgrade check: ","color":"red","italic":false}, {"text":"EMPTY", "bold":true}]'
 execute if entity @e[type=marker, tag=btemp.originC, limit=1, tag=-buvs.gas_tank] run data modify entity @s Items[{Slot:6b}].tag.display.Lore append value '[{"text":"Gas Tank upgrade check: ","color":"green","italic":false}, {"text":"APPLIED", "bold":true}]'
+
+data modify entity @s DecorItem set value {Count:1b, id:"minecraft:name_tag", tag:{VehicleAction:1b, HideFlags:255, Tags:["buvs.VEHICLE.none"], display:{Name:'{"text":"Show vehicle information", "bold":true, "italic":false}'}}}
