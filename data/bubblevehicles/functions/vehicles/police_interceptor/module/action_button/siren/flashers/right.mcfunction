@@ -1,3 +1,0 @@
-tag @s remove +buvs.flashed
-execute as @e[type=armor_stand, tag=buvs.mesh, tag=buvs.POLICE_INTERCEPTOR, tag=-buvs.headLights] if score @s buvs.registry = @p buvs.registry run function bubblevehicles:vehicles/police_interceptor/module/action_button/siren/instance/flashers/right
-execute unless score @s bvehicle.brake matches -10..10 run function bubblevehicles:vehicles/police_interceptor/module/action_button/siren/flashers/right_rear

@@ -1,1 +1,0 @@
-execute as @e[type=marker, tag=buvs.CUSTOM_SPAWNER] at @s run function bubblevehicles:vehicles/abstracts/custom_spawner/instance

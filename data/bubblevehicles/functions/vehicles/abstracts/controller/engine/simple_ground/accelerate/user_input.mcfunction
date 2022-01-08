@@ -1,2 +1,0 @@
-execute if score @p buvsInput.value matches -1 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/accelerate/backwards
-execute if score @p buvsInput.value matches 1 run function bubblevehicles:vehicles/abstracts/controller/engine/simple_ground/accelerate/forward

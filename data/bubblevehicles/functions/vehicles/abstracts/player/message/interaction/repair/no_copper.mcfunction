@@ -1,2 +1,0 @@
-title @p actionbar ["", {"translate":"item.minecraft.copper_ingot"}, " or ", {"translate":"block.minecraft.copper_block"}, " is ", {"text":"REQUIRED", "color":"gold", "bold":true}, " for repairing"]
-scoreboard players set $NoCopper bubblevehicles 1

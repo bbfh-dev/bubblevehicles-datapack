@@ -1,1 +1,0 @@
-execute as @e[type=villager, name="BubbleVehicles"] at @s run function bubblevehicles:vehicles/abstracts/trader/merge

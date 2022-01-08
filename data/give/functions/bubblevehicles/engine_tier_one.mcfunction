@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Item:{id:"jigsaw",Count:1,tag:{display:{Name:'[{"text":"Engine ", "color":"green", "italic":false, "bold":true}, {"text":"Tier I", "bold":false}]', Lore:['{"text":"bubblevehicles:engine_tier_one","color":"dark_gray","italic":false}']}}}}

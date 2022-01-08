@@ -1,1 +1,0 @@
-title @p actionbar [{"text":"Vehicle is "}, {"text":"REPAIRED", "bold":true}]

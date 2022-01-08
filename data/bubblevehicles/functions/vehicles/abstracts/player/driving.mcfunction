@@ -1,2 +1,0 @@
-advancement revoke @s only bubblevehicles:event/driving
-execute as @s[tag=buvs.driver] as @e[type=minecraft:armor_stand, tag=buvs.controller] if score @s buvs.registry = @p buvs.registry run function bubblevehicles:vehicles/abstracts/controller/tick

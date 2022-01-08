@@ -1,2 +1,0 @@
-execute if score $RenderDistance buvs.settings matches 1 as @e[type=minecraft:marker, tag=buvs.origin] at @s unless entity @p[distance=..12] run tag @s remove buvs.passed
-execute if score $RenderDistance buvs.settings matches 2 as @e[type=minecraft:marker, tag=buvs.origin] at @s unless entity @p[distance=..20] run tag @s remove buvs.passed

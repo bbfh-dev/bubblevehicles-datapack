@@ -1,1 +1,0 @@
-execute as @e[type=item, nbt={Age:1s}] as @s[nbt={Item:{id:"minecraft:blaze_powder"}}] unless data entity @s Thrower at @s run function bubblevehicles:vehicles/abstracts/dispenser/fuel_check

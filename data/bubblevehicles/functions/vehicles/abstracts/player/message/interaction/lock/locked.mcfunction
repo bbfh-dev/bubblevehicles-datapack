@@ -1,1 +1,0 @@
-title @p actionbar ["The vehicle has been ", {"text":"LOCKED", "bold":true}]

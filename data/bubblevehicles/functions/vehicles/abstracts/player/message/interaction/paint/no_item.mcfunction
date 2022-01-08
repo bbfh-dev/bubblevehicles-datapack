@@ -1,1 +1,0 @@
-title @p actionbar ["You need ", {"text":"piece of leather armor in your hand", "bold":true}, " for this action"]

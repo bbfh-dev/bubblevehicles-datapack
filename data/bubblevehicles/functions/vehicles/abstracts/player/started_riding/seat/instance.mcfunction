@@ -1,2 +1,0 @@
-execute as @s[tag=-buvs.passenger] run function bubblevehicles:vehicles/abstracts/player/started_riding/seat/instance/passenger
-execute as @s[tag=!-buvs.passenger] run function bubblevehicles:vehicles/abstracts/player/started_riding/seat/instance/primary

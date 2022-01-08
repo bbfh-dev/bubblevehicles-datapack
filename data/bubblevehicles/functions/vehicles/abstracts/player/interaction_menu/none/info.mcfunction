@@ -1,3 +1,0 @@
-tag @a remove -buvs.temp.owner
-execute at @a run function bubblevehicles:vehicles/abstracts/player/interaction_menu/none/players
-tellraw @p ["",{"selector":"@s","bold":true},{"text":" information","bold":true},{"text":":\n"},{"text":"Owner","bold":true,"color":"#3EB2F1"},{"text":": "},{"selector":"@p[tag=-buvs.temp.owner]"},{"text":"\n"},{"text":"Health","bold":true,"color":"#58F343"},{"text":": "},{"score":{"name":"@s","objective":"bvehicle.health"}},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"buvs.health"},"color":"gray"},{"text":"\n"},{"text":"Fuel","bold":true,"color":"#F2CE3E"},{"text":": "},{"score":{"name":"@s","objective":"bvehicle.fuel"}},{"text":"/","color":"gray"},{"score":{"name":"@s","objective":"buvs.tank_cap"},"color":"gray"}]

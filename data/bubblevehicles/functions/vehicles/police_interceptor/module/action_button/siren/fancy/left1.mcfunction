@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand, tag=buvs.mesh, tag=buvs.POLICE_INTERCEPTOR, tag=-buvs.id_21] if score @s buvs.registry = @p buvs.registry run function bubblevehicles:vehicles/police_interceptor/module/action_button/siren/instance/lit_blue_half1

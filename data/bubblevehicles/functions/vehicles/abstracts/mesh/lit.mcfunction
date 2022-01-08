@@ -1,1 +1,0 @@
-data merge entity @s {Marker:1b, Fire:32767s}

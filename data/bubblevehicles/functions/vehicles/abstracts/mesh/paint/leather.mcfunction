@@ -1,4 +1,0 @@
-execute store result entity @s ArmorItems[0].tag.display.color int 1 run scoreboard players get @e[type=marker, tag=buvs.origin, limit=1, sort=nearest] bvdata.color1
-execute store result entity @s ArmorItems[1].tag.display.color int 1 run scoreboard players get @e[type=marker, tag=buvs.origin, limit=1, sort=nearest] bvdata.color1
-execute store result entity @s ArmorItems[2].tag.display.color int 1 run scoreboard players get @e[type=marker, tag=buvs.origin, limit=1, sort=nearest] bvdata.color1
-execute store result entity @s ArmorItems[3].tag.display.color int 1 run scoreboard players get @e[type=marker, tag=buvs.origin, limit=1, sort=nearest] bvdata.color1

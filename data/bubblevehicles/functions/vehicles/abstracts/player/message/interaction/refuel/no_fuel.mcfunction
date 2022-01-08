@@ -1,1 +1,0 @@
-title @p actionbar ["You need ", {"translate":"item.minecraft.blaze_powder", "bold":true}, " for this action"]

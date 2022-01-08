@@ -1,1 +1,0 @@
-execute unless score $Debug bubblevehicles matches 1 run function bubblevehicles:vehicles/abstracts/player/message/corrupted/tick

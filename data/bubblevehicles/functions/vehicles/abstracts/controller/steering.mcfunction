@@ -1,2 +1,0 @@
-execute if score @p buvsInput.angle matches -1 at @s run function bubblevehicles:vehicles/abstracts/controller/steering/before_left
-execute if score @p buvsInput.angle matches 1 at @s run function bubblevehicles:vehicles/abstracts/controller/steering/before_right

@@ -1,2 +1,0 @@
-advancement revoke @s only bubblevehicles:event/summon_trader
-execute unless score $VillagerSpawning buvs.settings matches 0 run function bubblevehicles:vehicles/abstracts/player/summon_trader_instance

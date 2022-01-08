@@ -1,2 +1,0 @@
-execute if score $RenderDistance buvs.settings matches 5..6 run function bubblevehicles:vehicles/abstracts/origin/tick/high/low
-execute if score $RenderDistance buvs.settings matches 7..8 run function bubblevehicles:vehicles/abstracts/origin/tick/high/high

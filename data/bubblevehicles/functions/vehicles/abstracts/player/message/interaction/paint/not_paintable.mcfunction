@@ -1,1 +1,0 @@
-title @p actionbar ["This vehicle ", {"text":"IS NOT", "bold":true}, " paintable"]

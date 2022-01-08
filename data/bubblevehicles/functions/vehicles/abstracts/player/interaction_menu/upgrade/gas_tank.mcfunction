@@ -1,2 +1,0 @@
-execute if entity @e[type=marker, tag=btemp.originC, tag=-buvs.gas_tank, limit=1] run scoreboard players set $Applied bubblevehicles 1
-execute if score $Applied bubblevehicles matches 0 as @e[type=marker, tag=btemp.originC, limit=1] run function bubblevehicles:vehicles/abstracts/player/interaction_menu/upgrade/gas_tank_pass

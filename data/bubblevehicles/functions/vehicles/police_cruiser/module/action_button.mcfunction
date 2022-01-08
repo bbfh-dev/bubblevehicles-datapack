@@ -1,2 +1,0 @@
-execute unless data entity @e[type=llama, tag=btemp.seat, limit=1] DecorItem run function bubblevehicles:vehicles/police_cruiser/module/action_button/trigger
-execute if score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.action matches 1..2 run function bubblevehicles:vehicles/police_cruiser/module/action_button/siren/handler

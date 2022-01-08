@@ -1,2 +1,0 @@
-scoreboard players set $Owned bubblevehicles 0
-execute if score @s bvdata.digit0 = @p bvdata.digit0 if score @s bvdata.digit1 = @p bvdata.digit1 if score @s bvdata.digit2 = @p bvdata.digit2 if score @s bvdata.digit3 = @p bvdata.digit3 run scoreboard players set $Owned bubblevehicles 1

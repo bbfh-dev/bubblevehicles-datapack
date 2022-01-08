@@ -1,1 +1,0 @@
-tellraw @p ["You became ", {"text":"THE OWNER", "bold":true}, " of this vehicle"]
