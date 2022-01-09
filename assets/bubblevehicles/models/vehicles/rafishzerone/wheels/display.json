@@ -1,0 +1,8 @@
+{
+	"display": {
+		"head": {
+			"scale": [4, 4, 4],
+            "translation": [0, -16, 32]
+		}
+	}
+}
