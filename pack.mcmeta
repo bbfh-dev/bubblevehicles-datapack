@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 7,
+        "pack_format": 8,
         "description": [
             {
                 "text": "BubbleVehicles 4.0a",
@@ -19,7 +19,7 @@
                 "bold": true
             },
             {
-                "text": "       | 1.17.X",
+                "text": "       | 1.18.X",
                 "color": "#9aa3a5"
             }
         ],

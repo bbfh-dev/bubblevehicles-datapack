@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+    "overrides": [
+        {"predicate":{"custom_model_data":1000}, "model":"bubblevehicles:vehicles/rafishzerone/black"},
+        {"predicate":{"custom_model_data":1001}, "model":"bubblevehicles:vehicles/rafishzerone/blue"},
+        {"predicate":{"custom_model_data":1002}, "model":"bubblevehicles:vehicles/rafishzerone/green"},
+        {"predicate":{"custom_model_data":1003}, "model":"bubblevehicles:vehicles/rafishzerone/light_blue"},
+        {"predicate":{"custom_model_data":1004}, "model":"bubblevehicles:vehicles/rafishzerone/magenta"},
+        {"predicate":{"custom_model_data":1005}, "model":"bubblevehicles:vehicles/rafishzerone/orange"},
+        {"predicate":{"custom_model_data":1006}, "model":"bubblevehicles:vehicles/rafishzerone/purple"},
+        {"predicate":{"custom_model_data":1007}, "model":"bubblevehicles:vehicles/rafishzerone/red"},
+        {"predicate":{"custom_model_data":1008}, "model":"bubblevehicles:vehicles/rafishzerone/white"},
+        {"predicate":{"custom_model_data":1009}, "model":"bubblevehicles:vehicles/rafishzerone/yellow"}
+    ]
+}
