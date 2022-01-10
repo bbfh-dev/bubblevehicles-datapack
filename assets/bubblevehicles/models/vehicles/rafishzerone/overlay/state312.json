@@ -1,0 +1,27 @@
+{
+	"credit": "BubbleFish © BubbleVehicles DataPack",
+	"parent": "bubblevehicles:vehicles/rafishzerone/overlay/template",
+	"texture_size": [192, 192],
+	"textures": {
+		"uvmap": "bubblevehicles:vehicles/rafishzerone/lights",
+		"particle": "bubblevehicles:vehicles/rafishzerone/lights"
+	},
+	"elements": [
+		{
+			"from": [2, 0, -8],
+			"to": [14, 4, -8],
+			"faces": {
+				"north": {"uv": [8, 14.66667, 12, 16], "texture": "#uvmap"},
+				"south": {"uv": [12, 14.66667, 8, 16], "texture": "#uvmap"}
+			}
+		},
+		{
+			"from": [2, 0, 18],
+			"to": [14, 4, 18],
+			"faces": {
+				"north": {"uv": [16, 14.66667, 12, 16], "texture": "#uvmap"},
+				"south": {"uv": [12, 14.66667, 16, 16], "texture": "#uvmap"}
+			}
+		}
+	]
+}
