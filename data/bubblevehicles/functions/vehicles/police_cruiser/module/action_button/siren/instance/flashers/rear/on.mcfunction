@@ -1,0 +1,1 @@
+item replace entity @s armor.head with player_head{SkullOwner:{Id:[I;44252744,1881423947,-1275799744,15127128],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgzMDBjM2EyYjNhNGRmNDRhNmE1OWM3NTY2YjlhMmYxYTdkNWFlOTcxOWEwZWQzZGE1MGZmNWY4ZDViY2E4ZiJ9fX0="}]}}}

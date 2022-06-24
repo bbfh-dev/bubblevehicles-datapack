@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "looking_at": {
+                            "nbt": "{Tags:[\"buvs.team\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bubblevehicles:vehicles/abstracts/player/interaction_menu"
+    }
+}

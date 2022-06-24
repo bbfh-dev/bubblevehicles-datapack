@@ -1,0 +1,2 @@
+scoreboard players remove @e[type=marker, tag=btemp.origin, limit=1] bvdata.timer1 1
+execute if score @e[type=marker, tag=btemp.origin, limit=1] bvdata.timer1 matches ..0 run function bubblevehicles:vehicles/police_helicopter/module/action_button/flashlight/switch

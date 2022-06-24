@@ -1,0 +1,2 @@
+schedule function bubblevehicles:vehicles/abstracts/controller/beat 10t
+execute as @e[type=marker, tag=buvs.origin, tag=buvs.rendered, scores={bvehicle.health=..0}] at @s run function bubblevehicles:vehicles/abstracts/origin/broken

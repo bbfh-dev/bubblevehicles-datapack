@@ -1,0 +1,2 @@
+execute unless score @s bvehicle.speed matches -2147483648..2147483647 run scoreboard players set @s bvehicle.speed 0
+execute unless score @e[type=marker, tag=btemp.origin, limit=1] bvehicle.action matches -2147483648..2147483647 run function bubblevehicles:vehicles/abstracts/controller/defaults/action

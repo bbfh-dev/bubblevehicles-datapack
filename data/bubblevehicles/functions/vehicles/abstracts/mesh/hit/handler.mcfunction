@@ -1,0 +1,3 @@
+execute as @e[type=firework_rocket, tag=!btemp.hit] at @s if entity @e[type=marker, tag=buvs.origin, distance=..6] run function bubblevehicles:vehicles/abstracts/mesh/hit/damage
+execute as @e[type=tnt, tag=!btemp.hit, nbt={Fuse:0s}] at @s if entity @e[type=marker, tag=buvs.origin, distance=..6] run function bubblevehicles:vehicles/abstracts/mesh/hit/damage_tnt
+execute as @e[type=creeper, tag=!btemp.hit, nbt={ignited:1b}] at @s if entity @e[type=marker, tag=buvs.origin, distance=..6] run function bubblevehicles:vehicles/abstracts/mesh/hit/damage_creeper

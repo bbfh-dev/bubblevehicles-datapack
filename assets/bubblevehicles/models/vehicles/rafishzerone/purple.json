@@ -1,7 +1,0 @@
-{
-    "parent": "bubblevehicles:vehicles/rafishzerone/template",
-    "texture_size": [128, 128],
-    "textures": {
-        "texture_map": "bubblevehicles:vehicles/rafishzerone/purple"
-    }
-}

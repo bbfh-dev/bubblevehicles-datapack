@@ -1,0 +1,1 @@
+title @p actionbar [{"selector":"@s"}, " ownership has been ", {"text":"RESET", "bold":true}]

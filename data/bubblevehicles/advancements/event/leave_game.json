@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "buvs.leave_game": {
+                                "min": 1,
+                                "max": 2147483647
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bubblevehicles:vehicles/abstracts/player/leave_game"
+    }
+}

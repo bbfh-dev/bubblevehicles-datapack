@@ -1,0 +1,2 @@
+execute if entity @e[type=marker, tag=btemp.originA, tag=!bvehicle.locked] run function bubblevehicles:vehicles/abstracts/player/started_riding/seat/run
+execute if entity @e[type=marker, tag=btemp.originA, tag=bvehicle.locked] run function bubblevehicles:vehicles/abstracts/player/started_riding/seat/locked

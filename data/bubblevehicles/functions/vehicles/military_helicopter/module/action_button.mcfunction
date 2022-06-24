@@ -1,0 +1,1 @@
+execute unless data entity @e[type=llama, tag=btemp.seat, limit=1] DecorItem run function bubblevehicles:vehicles/military_helicopter/module/action_button/trigger

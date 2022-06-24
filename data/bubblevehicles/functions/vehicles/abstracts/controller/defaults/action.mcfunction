@@ -1,0 +1,1 @@
+scoreboard players set @e[type=marker, tag=btemp.origin, limit=1] bvehicle.action 0

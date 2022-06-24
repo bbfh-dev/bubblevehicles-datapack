@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand, tag=buvs.mesh, tag=buvs.AMBULANCE, tag=-buvs.id_43] if score @s buvs.registry = @p buvs.registry run function bubblevehicles:vehicles/ambulance/module/action_button/siren/instance/flashers/rear/on
+execute as @e[type=armor_stand, tag=buvs.mesh, tag=buvs.AMBULANCE, tag=-buvs.id_44] if score @s buvs.registry = @p buvs.registry run function bubblevehicles:vehicles/ambulance/module/action_button/siren/instance/flashers/rear/off

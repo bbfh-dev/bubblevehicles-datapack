@@ -1,5 +1,11 @@
 {
     "values": [
-        "bubblevehicles:tick"
+        "bubblevehicles:vehicles/abstracts/origin/tick",
+        "bubblevehicles:vehicles/abstracts/player/module/handler",
+        "bubblevehicles:vehicles/abstracts/custom_spawner/handler",
+        "bubblevehicles:vehicles/abstracts/spawner/handler",
+        "bubblevehicles:vehicles/abstracts/trader/handler",
+        "bubblevehicles:vehicles/abstracts/mesh/hit/handler",
+        "bubblevehicles:vehicles/abstracts/dispenser/handler"
     ]
 }
